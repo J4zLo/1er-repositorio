@@ -1,0 +1,102 @@
+Ejercicio 1-a
+
+package uno;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.println("Hola Jaz");
+
+		int numeroInicio = 5;
+		int numeroFin = 14;
+		{
+		while(numeroInicio <=numeroFin)
+		{System.out.println(numeroInicio); numeroInicio++;}
+		}
+	}
+}
+
+Ejercicio 1-b
+
+		int numeroInicio = 5;
+		int numeroFin = 14;
+		
+		if (numeroInicio%2==0) {
+			while (numeroInicio<=numeroFin){
+				System.out.println(numeroInicio + " es Par");
+				numeroInicio=numeroInicio+2;}
+								}
+		else { numeroInicio=numeroInicio+1;}
+			while (numeroInicio<=numeroFin){
+				System.out.println(numeroInicio + " es Par");
+				numeroInicio=numeroInicio+2;}
+// Ejercicio 1-c
+	int numeroInicio = 4;
+	int numeroFin = 14;
+	int mostrarPar= 2;
+		
+	if (mostrarPar<=1) {
+			if (numeroInicio%2==0) {
+				while (numeroInicio<=numeroFin){System.out.println(numeroInicio + " es Par");
+					numeroInicio=numeroInicio+2;}
+						}
+			else { numeroInicio=numeroInicio+1;}
+				while (numeroInicio<=numeroFin){System.out.println(numeroInicio + " es Par");
+					numeroInicio=numeroInicio+2;}	
+				}
+	else	{
+			if (numeroInicio%2!=0) {
+				while (numeroInicio<=numeroFin){System.out.println(numeroInicio + " es impar");
+					numeroInicio=numeroInicio+2;}
+						}
+			else {numeroInicio=numeroInicio+1;}
+				while (numeroInicio<=numeroFin){System.out.println(numeroInicio + " es impar");
+					numeroInicio=numeroInicio+2;}
+						}
+		}	
+Ejercicio 1-d
+
+int numeroInicio = 14;
+int numeroFin = 5;
+	
+		
+		if (numeroInicio%2==0){
+				for(numeroInicio=numeroInicio; numeroInicio>=numeroFin; numeroInicio--)
+					{System.out.println(numeroInicio + " es par");
+							numeroInicio=numeroInicio-1;}
+						
+					}
+		else { numeroInicio=numeroInicio-1;}
+				while (numeroInicio>=numeroFin){
+						System.out.println(numeroInicio + " espar");
+						numeroInicio=numeroInicio-2;}
+			
+Ejercicio 2
+
+
+double ingresos = 5558.50;
+int vehiculosNuevos = 1;
+int inmuebles= 2;
+int barcos = 0;
+		
+		if ( (ingresos <= 163539) &&	
+			 (vehiculosNuevos < 1) && 	
+			 (inmuebles <= 1) &&
+			 (barcos == 0)) 
+				{System.out.println("Corresponde a categoria I");} 
+		else if((ingresos <= 572386.50) &&
+				(vehiculosNuevos <=1) &&
+				(inmuebles<=2) &&
+				(barcos <1))
+				{System.out.println("Corresponde a categoria II");}
+		
+		else if((ingresos > 572386.50) ||
+				(vehiculosNuevos <=1) ||
+				(inmuebles<=2) ||
+				(barcos > 0))
+				{System.out.println("Corresponde a categoria III");}
+		
+					}	}
